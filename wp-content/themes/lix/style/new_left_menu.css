@@ -1,0 +1,142 @@
+@import url("http://fonts.googleapis.com/css?family=Alegreya:700, 400");
+*, *::before, *::after {
+  box-sizing:border-box;
+}
+aside {
+  font-family: Alegreya, sans-serif; 
+  padding-top:5%;
+}
+
+/*
+* Ocultamos el checkbox
+*/
+
+.trigger {
+  display:none;
+}
+
+/*
+* Estilzamos los labels
+*/
+
+label {
+  display: block;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+  &::after, &::before {
+      content: "\25BC";
+      font-size:.6em;
+      margin: 0 1em;
+  }
+
+
+/*
+* damos consistencia a todos los UL y LI (no necesario,
+* pero mola)
+*/
+.left_menu, .sub-menu{
+  list-style-type:none;
+}
+.left_menu li{
+  display: block;
+  border-radius: 3px;
+  margin: 10px;
+  border: 1px solid #ebedec;
+  list-style: none;
+  padding-left: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow: hidden;
+}
+
+/*
+* Ocultamos el sub-UL para que no se vea
+*/
+.sub-menu{
+  display:none;
+  /*border: 1px solid #000;*/
+  font-size: 14px;
+  line-height: 10px;
+  background: #fff;
+  padding: 0;
+  margin-left: 20px;
+  overflow: hidden;
+}
+.sub-menu li {
+  padding: 0;
+  margin: 0;
+  width:370px;
+  border:0;
+
+}
+.sub-menu li a {
+  text-transform: capitalize;
+}
+
+/*Маркеры*/
+aside ul li label{
+  background: url('../img/marker_left/marker_simple.png') no-repeat 0 6px ;
+  background-size: 20px;
+  background-position-y: 50%;
+  z-index: 4;
+}
+
+aside ul li label:hover{
+  color: #fff;
+  background-position-x: 10px;
+  background: url('../img/marker_left/marker_hover.png');
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position-y: 50%;
+  background-color: #517FA5;
+}
+
+.left_menu li .sub-menu li a:hover {
+  background-color: #517FA5;
+  color: #fff;
+}
+
+/*Для плагина картинка*/
+/*
+aside ul li label:hover:after {
+  position: absolute;
+  content: "";
+  top:0;
+  left:0px;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background-color: #517FA5;
+}*/
+/*Выравнивание пунктов меню*/
+aside ul li label,aside ul li a {
+  position: relative;
+  display: block;
+  text-decoration: none;
+  line-height: 30px;
+  color: #2b2a28;
+  width: 100%;
+  height: 100%;
+  margin-left: -10px;
+  padding-left: 30px;
+}
+aside ul li a {
+
+}
+
+/*
+* MAGIA
+*/
+
+.show-panel:checked + ul{
+  display:block;
+}
+
+.trigger:checked + ul{
+  display:block;
+}
+.left_menu .sub-menu {
+  padding-left: 0px;
+  margin-left: 0px;
+}

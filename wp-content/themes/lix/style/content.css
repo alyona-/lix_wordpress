@@ -1,0 +1,76 @@
+.content {
+}
+.content, .content_up , .content_down, .content_up__img, .content_down__text  {
+    position: relative;
+}
+.content_up {
+    display: flex;
+   /* justify-content:space-between; */
+    align-items: flex-end;
+    height:500px;
+    /*border:1px solid #000; */
+   /* border:1px solid #000; */
+    /*min-height: ; */
+
+    /*Размеры карты 766 на 482 */
+   /* min-width:766px;
+    min-height:482px; */
+}
+.content_down {
+    /*border:1px solid #000; */
+}
+.content_up__text {
+    position: relative;
+    display: block;
+    text-transform: uppercase;
+    text-indent: 20px;
+    margin-left: 50px;
+    bottom: 20px;
+    z-index: 2;
+}
+
+
+
+
+
+.content_up__img {
+    position: relative;
+    display: block;
+    width:950px;
+    height:550px;
+    margin-left: -300px;
+    bottom: -100px;
+    z-index: 1;
+}
+.content_logo {
+    display: block;
+    padding-right: 40px;
+}
+.content_logo:first-child {
+    width:250px;
+    padding-top: 10px;
+}
+.content_logo:nth-child(2){
+    width:330px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.content_logo:nth-child(3){
+    width:210px;
+    padding-bottom: 10px;
+}
+
+
+.content_down {
+    padding: 40px;
+}
+.content_down__title {
+    text-indent: 20px;
+}
+.content_down__text {
+    text-indent: 20px;
+}
+.content_up__text .content_logo {
+    color: #fff;
+    background: #2b2a28;
+}

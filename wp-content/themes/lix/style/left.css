@@ -1,0 +1,28 @@
+/*@import "left_menu.css";*/
+@import "left_article.css";
+@import "new_left_menu.css";
+
+.left_menu {
+	min-height:400px;
+   /* padding-top: 15px;
+    padding-bottom: 15px;*/
+	
+}
+.left_article {
+    height:500px;
+}
+.left_menu, .left_article
+{
+    background: #ebedec;
+    /*padding-top: 15px;*/
+    width: 350px;
+   /* padding-left: 25px;*/
+    padding:20px;
+    box-shadow: 2px 1px 30px #777;
+    -moz-box-shadow: 2px 1px 30px #777;
+    -webkit-box-shadow: 2px 1px 10px #fff;
+}
+
+.left_menu, .left_aticle__title, .left_article__link {
+    text-transform: uppercase;
+}

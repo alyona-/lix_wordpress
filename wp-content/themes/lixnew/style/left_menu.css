@@ -1,0 +1,82 @@
+
+.left_menu{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    list-style-image: url('../img/marker_left/marker_simple.png');
+}
+
+.left_menu__li {
+    display: block;
+    border-radius: 3px;
+    margin: 10px;
+    border: 1px solid #ebedec;
+    list-style: none;
+    padding-left: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.left_menu__li:first-child, .left_menu__li:nth-child(2),.left_menu__li:nth-child(3) {
+    height: 30px;
+}
+.left_menu__li:nth-child(4) {
+    height: 110px;
+}
+.left_menu__li:nth-child(5) {
+    height: 70px;
+}
+.left_menu__li .left_menu_link:nth-child(4){
+    display: flex;
+
+}
+
+
+.left_menu__li:hover {
+    position: relative;
+}
+.left_menu__li:hover:before {
+    position: absolute;
+    content: "";
+    top:0;
+    bottom:0;
+    left: 25px;
+    right: 0;
+    background: linear-gradient(#0860a7,#0960a5);
+    z-index: 0;
+}
+
+
+.left_menu__li .left_menu_link {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    line-height: 30px;
+    color: #2b2a28;
+    width: 100%;
+    height:100%;
+    margin-left: -10px;
+    text-indent: 25px;
+    background: url('../img/marker_left/marker_simple.png') no-repeat 0 6px ;
+    background-size: 20px;
+    background-position-y: 50%;
+}
+.left_menu__li:hover .left_menu_link{
+    background-image: url('../img/marker_left/marker_hover.png');
+    background-repeat: no-repeat;
+    background-size: 20px;
+    color: #fff;
+}
+.protection {
+    display: block;
+}
+.protection:first-child {
+    padding-bottom: 5px;
+}
+.protection:nth-child(2), .protection:nth-child(3){
+    position: relative;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+

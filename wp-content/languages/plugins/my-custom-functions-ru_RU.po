@@ -1,0 +1,101 @@
+# Translation of Stable (latest release) in Russian
+# This file is distributed under the same license as the Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-09-13 14:00:08+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.1.0-alpha\n"
+"Project-Id-Version: Stable (latest release)\n"
+
+#: inc/php/settings_page.php:61
+msgid "This plugin allows you to easily and safely add your custome functions (PHP code) to your website."
+msgstr "Этот плагин даёт вам возможность легко и безопасно добавлять ваши пользовательские функции (PHP код) на ваш веб-сайт."
+
+#: inc/php/settings_page.php:111
+msgid "Functions (PHP code)"
+msgstr "Функции (PHP код)"
+
+#. Description of the plugin/theme
+msgid "Easily and safely add your custome functions (PHP code) directly out of your WordPress Dashboard without need of an external editor."
+msgstr "Просто и безопасно добавляйте ваши пользовательские функции (PHP code) непосредственно из админ панели вашего WordPress вебсайта, без необходимости во внешнем редакторе."
+
+#: inc/php/settings_page.php:75
+msgid "Got something to say? Need help?"
+msgstr "Есть что сказать? Нужна помощь?"
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/ArthurGareginyan/my-custom-functions"
+msgstr "https://github.com/ArthurGareginyan/my-custom-functions"
+
+#. Author of the plugin/theme
+msgid "Arthur Gareginyan"
+msgstr "Артур Гарегинян"
+
+#. Author URI of the plugin/theme
+msgid "http://www.arthurgareginyan.com"
+msgstr "http://www.arthurgareginyan.com"
+
+#: my-custom-functions.php:84
+msgid "Custom Functions"
+msgstr "Пользовательские Функции"
+
+#: my-custom-functions.php:72
+msgid "Settings"
+msgstr "Настройки"
+
+#: inc/php/settings_page.php:83
+msgid "If you like this plugin and find it useful, please help me to make this plugin even better and keep it up-to-date."
+msgstr "Если вам нравится этот плагин и вы находите его полезным, то пожалуйста помогите мне сделать его ещё лучше."
+
+#: inc/php/settings_page.php:87
+msgid "Thanks for your support!"
+msgstr "Спасибо за вашу поддержку!"
+
+#: inc/php/settings_page.php:122
+msgid "Save Changes"
+msgstr "Сохранить Изменения"
+
+#: inc/php/settings_page.php:81
+msgid "Donate"
+msgstr "Поддержать разработку"
+
+#: inc/php/settings_page.php:66
+msgid "Using"
+msgstr "Использует"
+
+#: inc/php/settings_page.php:68
+msgid "To use, enter your custom functions, then click \"Save Changes\". It's that simple!"
+msgstr "Для использования, введите ваши пользовательские функции, затем нажмите кнопку “Сохранить Изменения”. Это так просто!"
+
+#: inc/php/settings_page.php:73
+msgid "Help"
+msgstr "Помощь"
+
+#: inc/php/settings_page.php:23
+msgid "Custom functions updated successfully."
+msgstr "Пользовательские функции успешно обновлены."
+
+#: inc/php/settings_page.php:34
+msgid "Sorry, but your code causes a \"Fatal error\", so it is not applied!"
+msgstr "Извините, но ваш код вызывает \"Fatal error\", так что он не будет применён!"
+
+#: inc/php/settings_page.php:35
+msgid "Please, check the code and try again."
+msgstr "Пожалуйста, проверьте код и попробуйте ещё раз."
+
+#. #-#-#-#-#  tmp-my-custom-functions.pot (My Custom Functions 3.1)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: inc/php/settings_page.php:45 my-custom-functions.php:84
+msgid "My Custom Functions"
+msgstr "My Custom Functions"
+
+#: inc/php/settings_page.php:48
+msgid "by <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Arthur Gareginyan</a>"
+msgstr "от <a href=\"http://www.arthurgareginyan.com\" target=\"_blank\">Артур Гарегинян</a>"
+
+#: inc/php/settings_page.php:59
+msgid "About"
+msgstr "Об авторе"

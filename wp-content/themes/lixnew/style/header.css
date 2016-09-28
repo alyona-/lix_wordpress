@@ -1,0 +1,126 @@
+body, header, .header_up, .header_block, .header_footer{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+
+}
+header {
+   width:100%;
+   /* max-width: 1300px;
+    min-width:975px; */
+}
+/*Обязательные бордеры*/
+ .header_block{
+    border: 1px solid #c7c7c7;
+     height:300px;
+}
+.header_up, .header_footer {
+    border: 1px solid #2b2a28;
+}
+/*Обязательные бордеры*/
+.header_up {
+    width:100%;
+    height:50px;
+    background: #2b2a28;
+}
+
+.header_block {
+    display: flex;
+    background: #c6c6c6;
+    justify-content: space-between;
+    align-items:flex-end;
+    /*border:1px solid red; */
+}
+.header_logo, .header_title, .header_phone {
+   /* border:1px solid red; */
+}
+
+.header_block .header_img {
+
+}
+.header_title {
+    position: relative;
+    left:50px;
+    flex-grow:5;
+    text-transform: uppercase;
+    font-family: sans-serif;
+
+}
+.logo_title_red {
+    font-style: italic;
+    color: #e81d23;
+}
+.logo_title_black {
+    color: #2b2a28;
+    font-size: 40px;
+}
+
+.header_block .logo {
+
+}
+.header_phone {
+    display: block;
+    right:50px;
+    padding-right: 30px;
+    width:200px;
+}
+
+/*Меню*/
+.header_menu {
+    list-style: none;
+
+
+}
+.header_menu__li {
+    /*Обязательные бордер*/
+    border: 1px solid #5b5b5b;
+    display: inline-block;
+    text-align: center;
+    width:250px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: bold;
+    margin-left: 15px;
+    background: linear-gradient(#383735, #505050);
+    border-radius: 2px;
+
+
+}
+
+.header_menu__li .header_menu_link {
+        display: block;
+        width: 100%;
+        height: 100%;
+        color: #fff;
+        font-weight: bold;
+        font-family: sans-serif;
+        font-size:25px;
+        text-decoration: none;
+}
+.header_menu__li:hover {
+    border:1px solid #ffed00;
+    background: #feed00;
+}
+.header_menu__li {
+    cursor: pointer;
+}
+
+.header_menu__li:hover .header_menu_link {
+    color: #000;
+}
+
+.header_footer {
+    background: linear-gradient(#2e2d2b,#5a5a5a);
+    height:70px;
+}
+.header_footer .header_menu {
+    
+}
+.header_img {
+    position: relative;
+    /*height:100px; */
+    height:260px;
+    bottom: 15px;
+    left:15px;
+}

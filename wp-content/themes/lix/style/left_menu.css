@@ -1,0 +1,90 @@
+@import "animation_left_menu.css";
+aside ul{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    list-style-image: url('../img/marker_left/marker_simple.png');
+}
+
+.left_menu li{
+    display: block;
+    border-radius: 3px;
+    margin: 10px;
+  /*  border: 1px solid #ebedec;*/
+    list-style: none;
+    padding-left: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    overflow: hidden;
+}
+
+aside ul li:hover {
+	position: relative;
+}
+
+.left_menu li .sub-menu {
+}
+
+.left_menu li:hover .sub-menu{
+    position: relative;
+	background:yellow;
+    margin: 0;
+}
+
+ aside ul li a {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    line-height: 30px;
+    color: #2b2a28;
+    width: 100%;
+    height:100%;
+    margin-left: -10px;
+	padding-left: 30px;
+
+}
+.left_menu .sub-menu {
+   	/*padding-left:15px;*/
+}
+aside ul li a {
+    background: url('../img/marker_left/marker_simple.png') no-repeat 0 6px ;
+    background-size: 20px;
+    background-position-y: 50%;
+    z-index: 4;
+}
+
+
+aside ul li:nth-child(4) a{
+}
+
+aside ul li a {
+
+    z-index: 2;
+}
+aside ul li a:hover{
+    background-image: url('../img/marker_left/marker_hover.png');
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-color: #517FA5;
+    color: #fff;
+    z-index: 4;
+}
+.protection {
+    display: block;
+}
+.protection:first-child , aside ul li a span:first-child{
+    padding-bottom: 5px;
+}
+.protection:nth-child(2), .protection:nth-child(3){
+    position: relative;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+aside ul li:nth-child(4) a, aside ul li:nth-child(5) a{
+	position: relative;
+    padding-top: 5px;
+    padding-bottom: 5px;
+	text-indent: 0px;
+	padding-left:30px;
+
+}

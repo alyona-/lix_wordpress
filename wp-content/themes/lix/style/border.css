@@ -1,0 +1,15 @@
+.content {
+    border:1px solid yellow;
+}
+.content_up {
+    border:1px solid #000;
+}
+.content_down {
+    border:1px solid #000;
+}
+.left_menu, .left_article {
+    border: 1px solid #000;
+}
+.content_up__img {
+    border:1px solid #000;
+}
